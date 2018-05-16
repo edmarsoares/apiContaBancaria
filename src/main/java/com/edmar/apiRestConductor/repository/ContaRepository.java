@@ -9,11 +9,7 @@ import com.edmar.apiRestConductor.model.Conta;
 
 
 
-/*@Transactional(readOnly = true)
-@NamedQueries({
-	@NamedQuery(name = "ContaRepository.findByPessoaIdPessoa",
-			   query = "SELECT c from pessoa c WHERE c.pessoa.id_Pessoa = :idPessoa")
-})*/
+
 @Transactional(readOnly = false)
 public interface ContaRepository extends JpaRepository<Conta, Long>{
 	//Conta findByPessoaIdPessoa(@Param("idPessoa") Long pessoaId);
@@ -22,7 +18,7 @@ public interface ContaRepository extends JpaRepository<Conta, Long>{
 	@Query("update Conta c set c.saldo = c.saldo + ?1 where c.idConta = ?2")
 	void setFixedSaldoFor(double  quantidade, Long id);
 	
-	//@Query("select  c.saldo from Conta c  where c.idConta = ?1")
+	
 	Conta findByIdConta(Long id);
 	
 	@Modifying
