@@ -9,6 +9,7 @@
 #      5. Devtools
 #      6. Banco H2 para realizacao de testes
 #      7. MySql 
+#      8. git para versionamento de codigo
 
 #    FERRAMENTAS:
 
@@ -39,6 +40,12 @@
 #      4. No Controller de Transacao sao realizadas as seguintes operações :
 
 #        4.1 /CRUD (Create, Read, Update, Delete) de uma transação
+
+
+#    TESTES:
+
+#      1. Teste realizado com junit para verificar se  CpfValido  e CpfInvalido de   uma Entidade pessoa
+#      2. criação de projile de teste
 
 
 
