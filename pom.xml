@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>apiRestConductor</name>
-	<description>projeto spring com angular</description>
+	<description>projeto api conta Bancaria</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
