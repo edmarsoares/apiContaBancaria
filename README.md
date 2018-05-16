@@ -45,7 +45,7 @@
 #    TESTES:
 
 #      1. Teste realizado com junit para verificar se  CpfValido  e CpfInvalido de   uma Entidade pessoa
-#      2. criação de projile de teste
+#      2. criação de profile de teste
 
 
 
