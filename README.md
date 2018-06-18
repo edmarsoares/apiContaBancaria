@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #    DESAFIO CONDUCTOR API CONTA BANCÁRIA
 
 #    TECNOLOGIAS:
@@ -49,3 +50,7 @@
 
 
 
+=======
+# apiContaBancaria
+api rest de uma conta bancaria em spring boot e spring data
+>>>>>>> 99bf0d9c99bf855d6421064dbb52b9e8adc17c69
